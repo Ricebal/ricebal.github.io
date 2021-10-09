@@ -188,7 +188,7 @@ html {
 }
 
 body {
-    background: #312450;
+    background: #242b50;
 }
 
 body.is-preload *,
@@ -308,10 +308,10 @@ h1.major {
 }
 
 h1.major:after {
-    background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-    background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-    background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-    background-image: linear-gradient(to right, #5e42a6, #b74e91);
+    background-image: -moz-linear-gradient(to right, #426da6, #914eb7);
+    background-image: -webkit-linear-gradient(to right, #426da6, #914eb7);
+    background-image: -ms-linear-gradient(to right, #426da6, #914eb7);
+    background-image: linear-gradient(to right, #426da6, #914eb7);
     -moz-transition: max-width 0.2s ease;
     -webkit-transition: max-width 0.2s ease;
     -ms-transition: max-width 0.2s ease;
@@ -3013,31 +3013,31 @@ table.alt tfoot {
 }
 
 .wrapper.alt {
-    background-color: #261c3e;
+    background-color: #1c1e3e;
 }
 
 .wrapper.style1 {
-    background-color: #5e42a6;
+    background-color: #4251a6;
 }
 
 .wrapper.style1-alt {
-    background-color: #493382;
+    background-color: #333b82;
 }
 
 .wrapper.style2 {
-    background-color: #5052b5;
+    background-color: #5078b5;
 }
 
 .wrapper.style2-alt {
-    background-color: #3e4094;
+    background-color: #3e5994;
 }
 
 .wrapper.style3 {
-    background-color: #b74e91;
+    background-color: #ab4eb7;
 }
 
 .wrapper.style3-alt {
-    background-color: #953d75;
+    background-color: #863d95;
 }
 
 .wrapper.fullscreen {
@@ -3142,7 +3142,7 @@ body.is-preload .wrapper.fade>.inner {
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
-    background-color: #5e42a6;
+    background-color: #4262a6;
     cursor: default;
     padding: 1.75em 2em;
 }
@@ -3285,7 +3285,7 @@ body.is-preload .wrapper.fade>.inner {
 
 #sidebar {
     padding: 2.5em 2.5em 0.5em 2.5em;
-    background: #312450;
+    background: #243350;
     cursor: default;
     height: 100vh;
     left: 0;
@@ -3523,14 +3523,14 @@ body.is-ie #sidebar>.inner {
 }
 
 #sidebar nav a:before {
-    background: #3c2c62;
+    background: #2c4362;
 }
 
 #sidebar nav a:after {
-    background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-    background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-    background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-    background-image: linear-gradient(to right, #5e42a6, #b74e91);
+    background-image: -moz-linear-gradient(to right, #426da6, #914eb7);
+    background-image: -webkit-linear-gradient(to right, #426da6, #914eb7);
+    background-image: -ms-linear-gradient(to right, #426da6, #914eb7);
+    background-image: linear-gradient(to right, #426da6, #914eb7);
     -moz-transition: max-width 0.2s ease;
     -webkit-transition: max-width 0.2s ease;
     -ms-transition: max-width 0.2s ease;
@@ -3612,7 +3612,7 @@ body.is-preload #sidebar nav ul li {
     }
     #sidebar nav a:after {
         background-image: none;
-        background-color: #b74e91;
+        background-color: #7f4eb7;
     }
 }
 
