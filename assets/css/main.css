@@ -87,7 +87,6 @@ time,
 mark,
 audio,
 video {
-    color: #c6beab;
     margin: 0;
     padding: 0;
     border: 0;
@@ -189,7 +188,7 @@ html {
 }
 
 body {
-    background: #1e1615;
+    background: #312450;
 }
 
 body.is-preload *,
@@ -282,7 +281,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #c6beab;
+    color: #ffffff;
     font-weight: bold;
     line-height: 1.5;
     margin: 0 0 0.5em 0;
@@ -309,10 +308,10 @@ h1.major {
 }
 
 h1.major:after {
-    background-image: -moz-linear-gradient(to right, #cf3a76, #04c4d9);
-    background-image: -webkit-linear-gradient(to right, #cf3a76, #04c4d9);
-    background-image: -ms-linear-gradient(to right, #cf3a76, #04c4d9);
-    background-image: linear-gradient(to right, #cf3a76, #04c4d9);
+    background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
+    background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
+    background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
+    background-image: linear-gradient(to right, #5e42a6, #b74e91);
     -moz-transition: max-width 0.2s ease;
     -webkit-transition: max-width 0.2s ease;
     -ms-transition: max-width 0.2s ease;
@@ -3014,25 +3013,19 @@ table.alt tfoot {
 }
 
 .wrapper.alt {
-    background-color: #120d0d;
+    background-color: #261c3e;
 }
 
 .wrapper.style1 {
-    background-color: #1e1615;
-    color: #c6beab;
-}
-
-#introTitle {
-    color: #c6beab;
+    background-color: #5e42a6;
 }
 
 .wrapper.style1-alt {
-    background-color: #120d0d;
+    background-color: #493382;
 }
 
 .wrapper.style2 {
-    color: #c6beab;
-    background-color: #592036;
+    background-color: #5052b5;
 }
 
 .wrapper.style2-alt {
@@ -3040,11 +3033,11 @@ table.alt tfoot {
 }
 
 .wrapper.style3 {
-    background-color: #321720;
+    background-color: #b74e91;
 }
 
 .wrapper.style3-alt {
-    background-color: #ec82c5;
+    background-color: #953d75;
 }
 
 .wrapper.fullscreen {
@@ -3149,14 +3142,14 @@ body.is-preload .wrapper.fade>.inner {
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
-    background-color: #181211;
+    background-color: #5e42a6;
     cursor: default;
     padding: 1.75em 2em;
 }
 
 #header>.title {
     border: 0;
-    color: #c6beab;
+    color: #ffffff;
     display: block;
     font-size: 1.25em;
     font-weight: bold;
@@ -3292,7 +3285,7 @@ body.is-preload .wrapper.fade>.inner {
 
 #sidebar {
     padding: 2.5em 2.5em 0.5em 2.5em;
-    background: #181211;
+    background: #312450;
     cursor: default;
     height: 100vh;
     left: 0;
@@ -3303,7 +3296,6 @@ body.is-preload .wrapper.fade>.inner {
     top: 0;
     width: 18em;
     z-index: 10000;
-    color: #181211;
 }
 
 #sidebar>.inner {
@@ -3531,14 +3523,14 @@ body.is-ie #sidebar>.inner {
 }
 
 #sidebar nav a:before {
-    background: #753543;
+    background: #3c2c62;
 }
 
 #sidebar nav a:after {
-    background-image: -moz-linear-gradient(to right, #cf3a76, #04c4d9);
-    background-image: -webkit-linear-gradient(to right, #cf3a76, #04c4d9);
-    background-image: -ms-linear-gradient(to right, #cf3a76, #04c4d9);
-    background-image: linear-gradient(to right, #cf3a76, #04c4d9);
+    background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
+    background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
+    background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
+    background-image: linear-gradient(to right, #5e42a6, #b74e91);
     -moz-transition: max-width 0.2s ease;
     -webkit-transition: max-width 0.2s ease;
     -ms-transition: max-width 0.2s ease;
@@ -3645,11 +3637,6 @@ body.is-preload #sidebar nav ul li {
     font-size: 1.25em;
 }
 
-#intro .inner {
-    display: flex;
-    flex-direction: row;
-}
-
 @media screen and (max-width: 980px) {
     #intro p br {
         display: none;
@@ -3666,6 +3653,11 @@ body.is-preload #sidebar nav ul li {
     #intro {
         background-attachment: scroll;
     }
+}
+
+#intro .inner {
+    display: flex;
+    flex-direction: row;
 }
 
 
